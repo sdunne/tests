@@ -1,7 +1,7 @@
 ---
 - name: Service Down - Restart Service
-  #hosts: "{{ _hosts }}"
-  hosts: ip-10-0-0-120
+  hosts: "{{ _hosts }}"
+  #hosts: ip-10-0-0-120
   #hosts: webservers
   become: true
   gather_facts: False
